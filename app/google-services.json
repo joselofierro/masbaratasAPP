@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "750916355106",
+    "project_id": "masbaratasapp",
+    "storage_bucket": "masbaratasapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750916355106:android:681eb92aca88467612b67b",
+        "android_client_info": {
+          "package_name": "com.example.masbaratasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750916355106-2tm8ai6ttqu38fso8na9tpt9ebh6qooj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.masbaratasapp",
+            "certificate_hash": "a9b43ca14c7afc1be697465708ab4b50d526b676"
+          }
+        },
+        {
+          "client_id": "750916355106-che26kp8j3e64a876khmjf26h874330j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrjOGyTvaIVjy2AV-80KkasjiQYyDxRrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750916355106-che26kp8j3e64a876khmjf26h874330j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

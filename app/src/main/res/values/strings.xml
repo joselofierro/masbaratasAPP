@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MasbaratasAPP</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="olvidaste_contra">¿Olvidaste contraseña?</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="ingrese_su_nombre">Ingrese su nombre</string>
+    <string name="ingrese_su_apellido">Ingrese su apellido</string>
+    <string name="ingrese_su_correo">Ingrese su correo</string>
+    <string name="ingrese_su_contrase">Ingrese su contraseña</string>
+    <string name="enviar_contrase">Enviar contraseña</string>
+</resources>
