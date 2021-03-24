@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_4"
     android:orientation="vertical"
     tools:context=".RegisterActivity">
 
@@ -15,50 +16,109 @@
         android:visibility="gone"
         android:layout_height="wrap_content" />
 
-    <EditText
-        android:id="@+id/txtNombre"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/ingrese_su_nombre"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/nombre"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:inputType="textPersonName"
-         />
+        android:padding="10dp"
+        android:background="@drawable/round_edit_text"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/apellido"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/txtApellido"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/ingrese_su_apellido"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_edit_text"
+        android:padding="10dp"
         android:layout_margin="10dp"
         android:ems="10"
         android:inputType="textPersonName"
         />
 
-    <EditText
-        android:id="@+id/txtCorreo"
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/correo"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_edit_text"
+        android:padding="10dp"
         android:ems="10"
-        android:hint="@string/ingrese_su_correo"
         android:layout_margin="10dp"
         android:inputType="textEmailAddress" />
 
-    <EditText
-        android:id="@+id/txtPass"
+
+    <TextView
+        android:id="@+id/labelContra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/contrase_a"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:labelFor="@id/labelContra"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:background="@drawable/round_edit_text"
+        android:layout_gravity="center"
         android:ems="10"
-        android:hint="@string/ingrese_su_contrase"
         android:layout_margin="10dp"
         android:inputType="textPassword" />
 
     <Button
-        android:onClick="registrar"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="@string/crear_cuenta"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:background="@color/design_default_color_primary_dark"
-        android:textColor="@color/white"/>
+        android:textSize="20sp"
+        android:background="@drawable/round_button"
+        android:onClick="registrar"
+        android:text="@string/crear_cuenta"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="#0ED8C4" />
 </LinearLayout>

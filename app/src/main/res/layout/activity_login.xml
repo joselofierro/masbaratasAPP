@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fondo_1"
     tools:context=".LoginActivity">
 
     <ProgressBar
@@ -15,46 +16,91 @@
         android:indeterminate="true"
         android:layout_height="wrap_content" />
 
-    <EditText
-        android:id="@+id/txtCorreo"
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="194dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/logo_de_mas_baratas"
+        android:src="@drawable/logo_2021" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/correo"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
         android:ems="10"
         android:layout_margin="10dp"
-        android:hint="@string/ingrese_su_correo"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:background="@drawable/round_edit_text"
         android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/labelContra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/contrase_a"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/txtPass"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:hint="@string/ingrese_su_contrase"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:background="@drawable/round_edit_text"
         android:inputType="textPassword" />
 
+
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:background="@color/teal_700"
+        android:textSize="20sp"
+        android:background="@drawable/round_button"
         android:onClick="login"
         android:text="@string/ingresar"
         android:textColor="@color/white"
-        app:backgroundTint="#388E3C" />
+        android:textStyle="bold"
+        app:backgroundTint="#0ED8C4" />
 
     <TextView
-        android:onClick="olvidastePass"
         android:layout_width="match_parent"
-        android:gravity="center"
         android:layout_height="wrap_content"
-        android:text="@string/olvidaste_contra" />
+        android:gravity="center"
+        android:onClick="olvidastePass"
+        android:text="@string/olvidaste_contra"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:onClick="toRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:onClick="toRegistro"
+        android:textColor="#ffffff"
         android:text="@string/crear_cuenta"
-        android:gravity="center"/>
+        android:textSize="15sp"
+        android:textStyle="bold" />
 </LinearLayout>

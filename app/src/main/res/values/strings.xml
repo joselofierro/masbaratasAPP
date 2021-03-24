@@ -1,11 +1,14 @@
 <resources>
     <string name="app_name">MasbaratasAPP</string>
-    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="crear_cuenta">Registrarse</string>
     <string name="olvidaste_contra">¿Olvidaste contraseña?</string>
-    <string name="ingresar">Ingresar</string>
-    <string name="ingrese_su_nombre">Ingrese su nombre</string>
-    <string name="ingrese_su_apellido">Ingrese su apellido</string>
-    <string name="ingrese_su_correo">Ingrese su correo</string>
-    <string name="ingrese_su_contrase">Ingrese su contraseña</string>
-    <string name="enviar_contrase">Enviar contraseña</string>
+    <string name="ingresar">Iniciar sesión</string>
+    <string name="enviar_contrase">Enviar</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">correo</string>
+    <string name="contrase_a">contraseña</string>
+    <string name="logo_de_mas_baratas">Logo de mas baratas</string>
+    <string name="por_favor_ingrese_el_correo_con_el_que_registr_su_cuenta">Por favor ingrese el correo con el que registró su cuenta</string>
+    <string name="imagen_de_pass">imagen_de_pass</string>
 </resources>
