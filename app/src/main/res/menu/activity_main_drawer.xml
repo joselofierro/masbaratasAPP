@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/frInicio"
+            android:title="@string/inicio" />
+        <item android:id="@+id/frRecom"
+            android:title="@string/recomendaciones" />
+        <item android:id="@+id/frRutas"
+            android:title="@string/rutas" />
+        <item android:id="@+id/frProm"
+            android:title="@string/promociones" />
+    </group>
+
+</menu>

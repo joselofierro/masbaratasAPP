@@ -11,4 +11,25 @@
     <string name="logo_de_mas_baratas">Logo de mas baratas</string>
     <string name="por_favor_ingrese_el_correo_con_el_que_registr_su_cuenta">Por favor ingrese el correo con el que registró su cuenta</string>
     <string name="imagen_de_pass">imagen_de_pass</string>
+    <string name="m_s_baratas">Más baratas</string>
+    <string name="inicio">Inicio</string>
+    <string name="recomendaciones">Recomendaciones</string>
+    <string name="rutas">Rutas</string>
+    <string name="promociones">Promociones</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">fragment home</string>
+    <string name="fragment_promo">fragment promo</string>
+    <string name="fragment_recomend">fragment recomend</string>
+    <string name="fragment_rutas">fragment rutas</string>
 </resources>
