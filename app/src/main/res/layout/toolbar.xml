@@ -17,13 +17,14 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar_main"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:background="#ff0000"
             app:layout_scrollFlags="scroll|enterAlways">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
                 android:contentDescription="@string/logo_de_mas_baratas"
                 android:src="@drawable/logo_2021" />
 

@@ -3,12 +3,16 @@
 
     <group>
         <item android:id="@+id/frInicio"
+            android:icon="@drawable/baseline_home_white_48"
             android:title="@string/inicio" />
         <item android:id="@+id/frRecom"
+            android:icon="@drawable/medicamentos"
             android:title="@string/recomendaciones" />
         <item android:id="@+id/frRutas"
+            android:icon="@drawable/rutas"
             android:title="@string/rutas" />
         <item android:id="@+id/frProm"
+            android:icon="@drawable/promociones"
             android:title="@string/promociones" />
     </group>
 

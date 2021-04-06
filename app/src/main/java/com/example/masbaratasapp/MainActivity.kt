@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setSupportActionBar(toolbar)
 
         val navigationView:NavigationView = findViewById(R.id.nav_view)
-        navigationView.menu.getItem(0).isChecked = true
+        //navigationView.menu.getItem(0).isChecked = true
         navigationView.setNavigationItemSelectedListener(this)
 
 
